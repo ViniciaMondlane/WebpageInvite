@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="finalproject.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Fale Connosco</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand py-0" href="" > <img src="devdecdev.png" alt="myLogo" class="w-50
+                 py-0"></a>
+            
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#minhanav">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="minhanav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"> <a class="nav-link text-dark" href="finalproject.html"> HOME </a> </li>
+                    <li><a class="nav-link text-dark" href="Products.html" rel="internal"> PRODUCTOS </a></li>
+                    <li><a class="nav-link text-dark" href="faleconnosco.html" rel="internal"> FALE CONNOSCO </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div>
+                <h4 class="text-center pt-5 pb-5"> <strong> Fale Connosco </strong> </h4>
+            <p class="text-center">Este espaço é reservado para que possa interagir connosco. 
+                Pode o fazer por meio de críticas e/ou sugestões, através do formulário abaixo.
+            </p>
+
+            <form action="" id="divtalk">
+                <label for="nometalk" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nometalk">
+
+                <label for="emailtalk" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="emailtalk">
+
+                <label for="assuntotalk" class="form-label">Assunto</label>
+                <input type="text" class="form-control" id="assuntotalk">
+
+                <label for="mensagemtalk" class="form-label"> Mensagem </label>
+                <textarea name="" id="mensagemtalk" class="form-control"> </textarea>
+            </form>
+        </div>
+        
+        <div class="modal" id="mymodal">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"> Mensagem </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close">
+                            </button>
+                    </div>
+
+                    <div class="modal-body">
+                        Obrigada por interagir connosco.
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                         Cancelar </button>
+                        <button type="button" class="btn btn-primary"> Confirmar </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" 
+        data-bs-target="#mymodal" id="buttontalk"> Enviar </button>
+
+    <h6 class="text-center pt-3 pb-3" id="developed"> Developed by Dev Dec & Dec </h6>
+
+    <script src="bootstrap.css"></script>
+    <script src="bootstrap.js"></script>
+    <script src="jquery.js"></script>
+</body>
+</html>

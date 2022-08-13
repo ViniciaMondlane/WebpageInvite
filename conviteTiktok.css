@@ -1,0 +1,91 @@
+@font-face{
+    src: url(cursive_2/Cursive\ standard.ttf);
+    font-family: cursive;
+}
+
+nav{
+    background-color: #f4d8b6;
+}
+
+body{
+    background-color: bisque;
+}
+
+ul{
+    font-family: cursive;
+}
+li:hover{
+    font-size: 16.5px;
+}
+
+h3{
+    font-family: cursive;
+    padding-bottom: 50px;
+}
+
+h4{
+    font-family: cursive;
+}
+
+#p1{
+    text-align: justify;
+}
+
+#div1{
+    width: 500px;
+}
+
+#img{
+    width: 450px;
+}
+
+#warningemoji{
+    font-size: 25px;
+}
+
+#div2{
+    width: 600px;
+    margin-top: -700px;
+    margin-left: auto;
+}
+
+#formbuy{
+    width: 275px;
+}
+
+.form-control{
+    border: none;
+    border-bottom: solid 1px #755937;
+    border-top: solid 1px #755937;
+}
+
+#forminvite{
+    width: 275px;
+    margin-top: -402px;
+    margin-left: auto;
+}
+
+#img{
+    width: 450px;
+}
+
+.fab{
+    color: #755937;
+}
+
+#warningemoji{
+    font-size: 25px;
+}
+
+#developed{
+    background-color: #f4d8b6;
+    margin-top: 180px;
+}
+
+.btn{
+    background-color: #ebaf66;
+    font-family: cursive;
+    border: 1px solid #755937;
+    margin-right: 325px;
+    margin-left: 325px;
+}

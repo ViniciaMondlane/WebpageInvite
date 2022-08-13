@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="conviteTiktok.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>Convite de Aniversário TikTok</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand py-0" href="" > <img src="devdecdev.png" alt="myLogo" class="w-50 py-0"> </a>
+            
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#minhanav">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="minhanav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"> <a class="nav-link text-dark" href="finalproject.html"> HOME </a> </li>
+                    <li> <a class="nav-link text-dark" href="Products.html" rel="internal"> PRODUCTOS </a> </li>
+                    <li><a class="nav-link text-dark" href="faleconnosco.html" rel="internal"> FALE CONNOSCO </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h3 class="text-center pt-5"> <strong> Os Nossos Productos </strong> </h3>
+
+        <div id="div1"> <h4 class="pt-3"> <strong> Convite de Aniversário de 10 anos <br> 
+            Tema: TikTok </strong> </h4>
+            <img id="img" src="tiktokInvite4.png" alt="Convite Unicórnio">
+            <p>Gostou deste convite? Compartilhe
+                <i class="fab fa-facebook-square fa-2x"></i>
+                <i class="fab fa-whatsapp fa-2x"></i>
+                <i class="fab fa-instagram fa-2x"></i>
+                <i class="fa-regular fa-triangle-exclamation"></i>
+            </p>
+        </div>
+
+        <div id="div2">
+            <div id="formbuy">
+                <h4> <strong>Formulário de compra</strong> </h4>
+
+                <label for="nameform" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nameform">
+
+                <label for="surnameform" class="form-label">Apelido</label>
+                <input type="text" class="form-control" id="surnameform">
+
+                <label for="emailform" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="emailform">
+
+                <label for="numberform">Número de telefone</label>
+                <input type="number" class="form-control" id="numberform">
+                
+                <label for="">Quantidade (seleccione a quantidade que deseja comprar)</label>
+                <select class="form-control" id="">
+                    <option value="">20 convites - 700 Mt </option>
+                    <option value="">30 convites - 1050 Mt </option>
+                    <option value="">40 convites - 1400 Mt </option>
+                    <option value="">50 convites - 1750 Mt </option>
+                    <option value="">60 convites - 2100 Mt </option>
+                    <option value="">70 convites - 2450 Mt </option>
+                    <option value="">80 convites - 2800 Mt </option>
+                    <option value="">90 convites - 3150 Mt </option>
+                    <option value="">100 convites - 3500 Mt </option>
+                </select>
+            </div>
+
+            <div id="forminvite">
+                <h4><strong>Alteração da Mensagem do Convite</strong></h4>
+                <p id="p1"> <i class="fa-regular fa-triangle-exclamation"> </i> <span id="warningemoji">&#x26A0</span> O convite na imagem possui dados próprios.
+                    Através do formulário abaixo, pode inserir os seus dados para que 
+                    possamos personalizar.</p>
+
+                    Apague uma velinha com a 
+                    <input type="text" class="form-control" id="nameaniversariante" placeholder="nome da aniversariante">
+                    <label for="nameaniversariante" class="form-label"></label>
+
+                    no seu
+                    <input type="number" class="form-control" id="idade" placeholder="idade da aniversariante">
+                    <label for="idade" class="form-label"></label>
+
+                    aniversário, no dia
+                    <input type="date" class="form-control" id="data">
+                    <label for="data" class="form-label"></label>
+
+                    pelas
+                    <input type="time" class="form-control" id="data">
+                    <label for="data" class="form-label"></label>
+
+                    no
+                    <input type="text" class="form-control" id="local" placeholder="local do evento">
+                    <label for="local" class="form-label"></label>
+
+                    <div class="modal" id="modalfrozen">
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5>Confirmação da Submissão</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close">
+                                </button>
+                                </div>
+        
+                                <div class="modal-body">
+                                    O seu pedido foi enviado! <br>
+                                    Aguarde a confirmação por e-mail.
+                                </div>
+        
+                            </div>
+        
+                        </div>
+        
+                    </div>
+                    
+                </div>
+                <button type="button" class="btn" data-bs-toggle="modal"
+                    data-bs-target="#modalfrozen" id="buttonwed"> Enviar </button>
+            </div>
+
+        
+    </div>
+    <h6 class="text-center pt-3 pb-3" id="developed"> Developed by Dev Dec & Dev </h6>
+</body>
+
+
+<script src="bootstrap.css"></script>
+<script src="jquery.js"></script>
+<script src="bootstrap.js"></script>
+
+</body>
+</html>

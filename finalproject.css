@@ -1,0 +1,135 @@
+@font-face {
+    font-family: cursive;
+    src: url(cursive_2/Cursive\ standard.ttf);
+}
+nav{
+    background-color: #f4d8b6;
+}
+
+body{
+    background-color: bisque;
+}
+
+h4{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+ul{
+    font-family: cursive;
+}
+
+li:hover{
+    font-size: 16.5px;
+}
+
+#video1{
+    height: 450px;
+    margin: auto;
+}
+
+.descricao{
+    width: 900px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+}
+
+.prod{
+    color: #755937;
+    text-decoration-line: none;
+}
+
+.prod:hover{
+    font-size: 16.5px;
+    color: #755937;
+}
+
+#div2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 900px;
+    text-align: justify;
+}
+
+.div21{
+    width: 305px;
+}
+
+.div22{
+    width: 280px;
+    margin-top: -205px;
+    margin-left: 330px;
+}
+
+.div23{
+    width: 280px;
+    margin-top: -110px;
+    margin-left: 630px;
+}
+
+.paragrafo{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fab{
+    color: #755937;
+}
+
+.emoji{
+    font-size: 1.5em;
+}
+
+.head{
+    font-family: cursive;
+}
+
+#divtalk{
+    width: 650px;
+    margin: auto;
+}
+
+#nometalk{
+    border: none;
+    border-bottom: solid 1px #755937;
+    border-top: solid 1px #755937;
+}
+
+#emailtalk{
+    border: none;
+    border-bottom: solid 1px #755937;
+    border-top: solid 1px #755937;
+}
+
+#assuntotalk{
+    border: none;
+    border-bottom: solid 1px #755937;
+    border-top: solid 1px #755937;
+}
+
+#mensagemtalk{
+    border: none;
+    border-bottom: solid 1px #755937;
+    border-top: solid 1px #755937;
+}
+
+#buttontalk{
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: #755937;
+    background-color: #755937;
+}
+
+#developed{
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #f3d3ab;
+}
+

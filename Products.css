@@ -1,0 +1,60 @@
+@font-face{
+    src: url(cursive_2/Cursive\ standard.ttf);
+    font-family: cursive;
+}
+
+nav{
+    background-color: #f4d8b6;
+}
+
+ul{
+    font-family: cursive;
+}
+li:hover{
+    font-size: 16.5px;
+}
+
+h4{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.divhover{
+    height: 275px;
+    margin-bottom: 5px;
+}
+
+.divhover:hover{
+height: 285px;
+}
+
+.divin{
+    width: 200px;
+    display: inline-block;
+}
+
+.divhover2{
+    height: 255px;
+    margin-bottom: 5px;
+}
+
+.divhover2:hover{
+height: 265px;
+}
+
+.divin2{
+    width: 205px;
+    display: inline-block;
+}
+
+.btn{
+    background-color: #f4d8b6;
+    font-family: cursive;
+}
+
+#developed{
+    background-color: #f4d8b6;
+    margin-top: 50px;
+    font-family: cursive;
+}
+
